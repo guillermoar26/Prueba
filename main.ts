@@ -19,7 +19,6 @@ await client.connect("mongodb+srv://garino:1234@cluster-nebrija.4qzkyt0.mongodb.
 const db = client.database("bookstore");
 console.log("Connected to DB");
 
-const router = new Router();
 
 router
   .get("/books", async (context) => {
